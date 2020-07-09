@@ -36,19 +36,29 @@
                 <h3>CSS 225 EXTRA CREDIT WORK</h3>
 
             <div class="myContainer">
-                <input class="form-control" type="number" id="zip" required placeholder="ZipCode">
-                <input class="myBtn" type="button" value="Enter"  id="zipCode">
+                <p id="errMsg"></p>
+                <form>
+                    <div>
+                        <input class="form-control" type="text" id="zip" required placeholder="ZipCode">
+                    </div>
+                    <div>
+                        <input class="myBtn" type="button" value="Enter"  id="zipCode">
+                    </div>
+                </form>
+                
             </div>
+
         </div>
 
-        <div>
-            <div class="weatherDisplay">
-                
-        <div id="myProgress">
-            <div id="myBar">LOADING...</div>
-        </div>
-                <h4>WEATHER INFORMATION</h4>
-                <div  id="cur-weather"></div>
+        <div class="weatherDisplay">
+            <h4>WEATHER INFORMATION</h4>
+            <div class="gridContainer">
+                <div id="cur-weather1"></div>
+                <div id="cur-weather2"></div>
+                <div id="cur-weather3"></div>
+                <div id="cur-weather4"></div>
+                <div id="cur-weather5"></div>
+                <div id="cur-weather6"></div>
             </div>
         </div>
     
