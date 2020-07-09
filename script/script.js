@@ -30,19 +30,19 @@ jQuery(document).ready(function(){
             
             
             if(Weather.list[0].weather[0].main === "Clouds"){
-                var theWeather = '<img src='+getBrokenClouds()+' alt="Cloudy">';
+                var theWeather = '<img src=../images'+getBrokenClouds()+' alt="Cloudy">';
             }
             else if(Weather.list[0].weather[0].main === "Rain"){
-                var theWeather = '<img src='+getLightRain()+' alt="Light-Rain">';
+                var theWeather = '<img src=../images'+getLightRain()+' alt="Light-Rain">';
             }
             else if(Weather.list[0].weather[0].main=== "Clear"){
-                var theWeather = '<img src='+getClearSkyLink()+' alt="Moderate-Rain">';
+                var theWeather = '<img src=../images'+getClearSkyLink()+' alt="Moderate-Rain">';
             }
             else if( Weather.list[0].weather[0].main === "Drizzle"){
-                var theWeather = '<img src='+getDrizzle()+' alt="ClearSky">';
+                var theWeather = '<img src=../images'+getDrizzle()+' alt="ClearSky">';
             }
             else if(Weather.list[0].weather[0].main === "Snow"){
-                var theWeather = '<img src='+getSnowLink()+' alt="SnowFall">';
+                var theWeather = '<img src=../images'+getSnowLink()+' alt="SnowFall">';
             }
             theWeather +='<p class="descp">' +Weather.list[0].weather[0].description + '</p>'; 
             theWeather +='<div class="temp">';           
@@ -65,19 +65,19 @@ jQuery(document).ready(function(){
             // Displaying the second weather
 
             if(Weather.list[4].weather[0].main === "Clouds"){
-                var theWeather2 = '<img src='+getBrokenClouds()+' alt="Cloudy">';
+                var theWeather2 = '<img src=../images'+getBrokenClouds()+' alt="Cloudy">';
             }
             else if(Weather.list[4].weather[0].main === "Rain"){
-                var theWeather2 = '<img src='+getLightRain()+' alt="Light-Rain">';
+                var theWeather2 = '<img src=../images'+getLightRain()+' alt="Light-Rain">';
             }
             else if(Weather.list[4].weather[0].main=== "Clear"){
-                var theWeather2 = '<img src='+getClearSkyLink()+' alt="Moderate-Rain">';
+                var theWeather2 = '<img src=../images'+getClearSkyLink()+' alt="Moderate-Rain">';
             }
             else if( Weather.list[4].weather[0].main === "Drizzle"){
-                var theWeather2 = '<img src='+getDrizzle()+' alt="ClearSky">';
+                var theWeather2 = '<img src=../images'+getDrizzle()+' alt="ClearSky">';
             }
             else if(Weather.list[4].weather[0].main === "Snow"){
-                var theWeather2 = '<img src='+getSnowLink()+' alt="SnowFall">';
+                var theWeather2 = '<img src=../images'+getSnowLink()+' alt="SnowFall">';
             }
 
             theWeather2 +='<p class="descp">' +Weather.list[4].weather[0].description + '</p>';
@@ -101,19 +101,19 @@ jQuery(document).ready(function(){
             // Displaying the Third weather info
 
             if(Weather.list[16].weather[0].main === "Clouds"){
-                var theWeather3 = '<img src='+getBrokenClouds()+' alt="Cloudy">';
+                var theWeather3 = '<img src=../images'+getBrokenClouds()+' alt="Cloudy">';
             }
             else if(Weather.list[16].weather[0].main === "Rain"){
-                var theWeather3 = '<img src='+getLightRain()+' alt="Light-Rain">';
+                var theWeather3 = '<img src=../images'+getLightRain()+' alt="Light-Rain">';
             }
             else if(Weather.list[16].weather[0].main=== "Clear"){
-                var theWeather3 = '<img src='+getClearSkyLink()+' alt="Moderate-Rain">';
+                var theWeather3 = '<img src=../images'+getClearSkyLink()+' alt="Moderate-Rain">';
             }
             else if( Weather.list[16].weather[0].main === "Drizzle"){
-                var theWeather3 = '<img src='+getDrizzle()+' alt="ClearSky">';
+                var theWeather3 = '<img src=../images'+getDrizzle()+' alt="ClearSky">';
             }
             else if(Weather.list[16].weather[0].main === "Snow"){
-                var theWeather3 = '<img src='+getSnowLink()+' alt="SnowFall">';
+                var theWeather3 = '<img src=../images'+getSnowLink()+' alt="SnowFall">';
             }
 
             theWeather3 +='<p class="descp">' +Weather.list[9].weather[0].description + '</p>';
@@ -136,19 +136,19 @@ jQuery(document).ready(function(){
 
             // Displaying the fourth wether info
             if(Weather.list[24].weather[0].main === "Clouds"){
-                var theWeather4 = '<img src='+getBrokenClouds()+' alt="Cloudy">';
+                var theWeather4 = '<img src=../images'+getBrokenClouds()+' alt="Cloudy">';
             }
             else if(Weather.list[24].weather[0].main === "Rain"){
-                var theWeather4 = '<img src='+getLightRain()+' alt="Light-Rain">';
+                var theWeather4 = '<img src=../images'+getLightRain()+' alt="Light-Rain">';
             }
             else if(Weather.list[24].weather[0].main=== "Clear"){
-                var theWeather4 = '<img src='+getClearSkyLink()+' alt="Moderate-Rain">';
+                var theWeather4 = '<img src=../images'+getClearSkyLink()+' alt="Moderate-Rain">';
             }
             else if( Weather.list[24].weather[0].main === "Drizzle"){
-                var theWeather4 = '<img src='+getDrizzle()+' alt="ClearSky">';
+                var theWeather4 = '<img src=../images'+getDrizzle()+' alt="ClearSky">';
             }
             else if(Weather.list[24].weather[0].main === "Snow"){
-                var theWeather4 = '<img src='+getSnowLink()+' alt="SnowFall">';
+                var theWeather4 = '<img src=../images'+getSnowLink()+' alt="SnowFall">';
             }
 
             theWeather4 +='<p class="descp">' +Weather.list[24].weather[0].description + '</p>';
@@ -171,19 +171,19 @@ jQuery(document).ready(function(){
 
             // Displaying the Fifth weather info
             if(Weather.list[32].weather[0].main === "Clouds"){
-                var theWeather5 = '<img src='+getBrokenClouds()+' alt="Cloudy">';
+                var theWeather5 = '<img src=../images'+getBrokenClouds()+' alt="Cloudy">';
             }
             else if(Weather.list[32].weather[0].main === "Rain"){
-                var theWeather5 = '<img src='+getLightRain()+' alt="Light-Rain">';
+                var theWeather5 = '<img src=../images'+getLightRain()+' alt="Light-Rain">';
             }
             else if(Weather.list[32].weather[0].main=== "Clear"){
-                var theWeather5 = '<img src='+getClearSkyLink()+' alt="Moderate-Rain">';
+                var theWeather5 = '<img src=../images'+getClearSkyLink()+' alt="Moderate-Rain">';
             }
             else if( Weather.list[32].weather[0].main === "Drizzle"){
-                var theWeather5 = '<img src='+getDrizzle()+' alt="ClearSky">';
+                var theWeather5 = '<img src=../images'+getDrizzle()+' alt="ClearSky">';
             }
             else if(Weather.list[32].weather[0].main === "Snow"){
-                var theWeather5 = '<img src='+getSnowLink()+' alt="SnowFall">';
+                var theWeather5 = '<img src=../images'+getSnowLink()+' alt="SnowFall">';
             }
 
             theWeather5 +='<p class="descp">' +Weather.list[32].weather[0].description + '</p>';
@@ -206,19 +206,19 @@ jQuery(document).ready(function(){
 
             // Displaying the sixth weather info
             if(Weather.list[39].weather[0].main === "Clouds"){
-                var theWeather6 = '<img src='+getBrokenClouds()+' alt="Cloudy">';
+                var theWeather6 = '<img src=../images'+getBrokenClouds()+' alt="Cloudy">';
             }
             else if(Weather.list[39].weather[0].main === "Rain"){
-                var theWeather6 = '<img src='+getLightRain()+' alt="Light-Rain">';
+                var theWeather6 = '<img src=../images'+getLightRain()+' alt="Light-Rain">';
             }
             else if(Weather.list[39].weather[0].main=== "Clear"){
-                var theWeather6 = '<img src='+getClearSkyLink()+' alt="Moderate-Rain">';
+                var theWeather6 = '<img src=../images'+getClearSkyLink()+' alt="Moderate-Rain">';
             }
             else if( Weather.list[39].weather[0].main === "Drizzle"){
-                var theWeather6 = '<img src='+getDrizzle()+' alt="ClearSky">';
+                var theWeather6 = '<img src=../images'+getDrizzle()+' alt="ClearSky">';
             }
             else if(Weather.list[39].weather[0].main === "Snow"){
-                var theWeather6 = '<img src='+getSnowLink()+' alt="SnowFall">';
+                var theWeather6 = '<img src=../images'+getSnowLink()+' alt="SnowFall">';
             }
 
             theWeather6 +='<p class="descp">' +Weather.list[39].weather[0].description + '</p>';
@@ -349,32 +349,27 @@ jQuery(document).ready(function(){
     }
     
     function getLightRain(){
-        var x = "../images/rain.png";
+        var x = "/rain.png";
         return x;
     }
     
     function getClearSkyLink(){
-        var x = "../images/sunny.png";
+        var x = "/sunny.png";
         return x;
     }
 
     function getBrokenClouds(){
-        var x = "../images/brokenClouds.png";
-        return x;
-    }
-
-    function getDrizzle(){
-        var x ="../images/cloudy.png";
+        var x = "/brokenClouds.png";
         return x;
     }
     
     function getDrizzle(){
-        var x="../images/cloudySun.png";
+        var x="/cloudySun.png";
         return x;
     }
 
     function getSnowLink(){
-        var x = "../images/snowFall.png";
+        var x = "/snowFall.png";
         return x;
     }
 
