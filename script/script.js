@@ -349,32 +349,32 @@ jQuery(document).ready(function(){
     }
     
     function getLightRain(){
-        var x = "/images/rain.png";
+        var x = "../images/rain.png";
         return x;
     }
     
     function getClearSkyLink(){
-        var x = "/images/sunny.png";
+        var x = "../images/sunny.png";
         return x;
     }
 
     function getBrokenClouds(){
-        var x = "/images/brokenClouds.png";
+        var x = "../images/brokenClouds.png";
         return x;
     }
 
     function getDrizzle(){
-        var x ="/images/cloudy.png";
+        var x ="../images/cloudy.png";
         return x;
     }
     
     function getDrizzle(){
-        var x="/images/cloudySun.png";
+        var x="../images/cloudySun.png";
         return x;
     }
 
     function getSnowLink(){
-        var x = "/images/snowFall.png";
+        var x = "../images/snowFall.png";
         return x;
     }
 
